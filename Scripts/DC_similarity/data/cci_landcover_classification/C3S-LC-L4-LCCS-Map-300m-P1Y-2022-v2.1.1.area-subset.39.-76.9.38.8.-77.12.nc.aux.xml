@@ -1,0 +1,592 @@
+<PAMDataset>
+  <Subdataset name="time_bounds">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="NC_GLOBAL#cdm_data_type">grid</MDI>
+        <MDI key="NC_GLOBAL#comment" />
+        <MDI key="NC_GLOBAL#contact">copernicus-support@ecmwf.int</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.6</MDI>
+        <MDI key="NC_GLOBAL#creation_date">20240220T123148Z</MDI>
+        <MDI key="NC_GLOBAL#creator_email">landcover-cci@uclouvain.be</MDI>
+        <MDI key="NC_GLOBAL#creator_name">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#creator_url">http://www.uclouvain.be/</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_max">90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_min">-90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_units">degrees_north</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_max">180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_min">-180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_units">degrees_east</MDI>
+        <MDI key="NC_GLOBAL#history">lc-sr-1.0, lc-classification-1.0,lc-user-tools-3.14,lc-user-tools-4.5</MDI>
+        <MDI key="NC_GLOBAL#id">C3S-LC-L4-LCCS-Map-300m-P1Y-2022-v2.1.1</MDI>
+        <MDI key="NC_GLOBAL#institution">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#keywords">land cover classification,satellite,observation</MDI>
+        <MDI key="NC_GLOBAL#keywords_vocabulary">NASA Global Change Master Directory (GCMD) Science Keywords</MDI>
+        <MDI key="NC_GLOBAL#license">EC C3S Land cover Data Policy</MDI>
+        <MDI key="NC_GLOBAL#naming_authority" />
+        <MDI key="NC_GLOBAL#product_version">2.1.1</MDI>
+        <MDI key="NC_GLOBAL#project">EC C3S Land Cover</MDI>
+        <MDI key="NC_GLOBAL#references">https://cds.climate.copernicus.eu/</MDI>
+        <MDI key="NC_GLOBAL#source">Sentinel-3 OLCI</MDI>
+        <MDI key="NC_GLOBAL#spatial_resolution">300m</MDI>
+        <MDI key="NC_GLOBAL#standard_name_vocabulary">NetCDF Climate and Forecast (CF) Standard Names version 21</MDI>
+        <MDI key="NC_GLOBAL#summary">This dataset characterizes the land cover of a particular year (see time_coverage). The land cover was derived from the analysis of satellite data time series of the full period.</MDI>
+        <MDI key="NC_GLOBAL#TileSize">2025:2025</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_duration">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_end">20221231</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_resolution">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_start">20220101</MDI>
+        <MDI key="NC_GLOBAL#title">Land Cover Map of 2022</MDI>
+        <MDI key="NC_GLOBAL#tracking_id">cbc0983e-a0fd-4277-9023-2e618c0c2067</MDI>
+        <MDI key="NC_GLOBAL#type">C3S-LC-L4-LCCS-Map-300m-P1Y</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#bounds">time_bounds</MDI>
+        <MDI key="time#calendar">standard</MDI>
+        <MDI key="time#long_name">time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">days since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">18993</MDI>
+          <MDI key="STATISTICS_MAXIMUM">19357</MDI>
+          <MDI key="STATISTICS_MEAN">19175</MDI>
+          <MDI key="STATISTICS_STDDEV">182</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="processed_flag">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#bounds">lat_bounds</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#valid_max">90</MDI>
+        <MDI key="lat#valid_min">-90</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#bounds">lon_bounds</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#valid_max">180</MDI>
+        <MDI key="lon#valid_min">-180</MDI>
+        <MDI key="NC_GLOBAL#cdm_data_type">grid</MDI>
+        <MDI key="NC_GLOBAL#comment" />
+        <MDI key="NC_GLOBAL#contact">copernicus-support@ecmwf.int</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.6</MDI>
+        <MDI key="NC_GLOBAL#creation_date">20240220T123148Z</MDI>
+        <MDI key="NC_GLOBAL#creator_email">landcover-cci@uclouvain.be</MDI>
+        <MDI key="NC_GLOBAL#creator_name">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#creator_url">http://www.uclouvain.be/</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_max">90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_min">-90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_units">degrees_north</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_max">180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_min">-180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_units">degrees_east</MDI>
+        <MDI key="NC_GLOBAL#history">lc-sr-1.0, lc-classification-1.0,lc-user-tools-3.14,lc-user-tools-4.5</MDI>
+        <MDI key="NC_GLOBAL#id">C3S-LC-L4-LCCS-Map-300m-P1Y-2022-v2.1.1</MDI>
+        <MDI key="NC_GLOBAL#institution">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#keywords">land cover classification,satellite,observation</MDI>
+        <MDI key="NC_GLOBAL#keywords_vocabulary">NASA Global Change Master Directory (GCMD) Science Keywords</MDI>
+        <MDI key="NC_GLOBAL#license">EC C3S Land cover Data Policy</MDI>
+        <MDI key="NC_GLOBAL#naming_authority" />
+        <MDI key="NC_GLOBAL#product_version">2.1.1</MDI>
+        <MDI key="NC_GLOBAL#project">EC C3S Land Cover</MDI>
+        <MDI key="NC_GLOBAL#references">https://cds.climate.copernicus.eu/</MDI>
+        <MDI key="NC_GLOBAL#source">Sentinel-3 OLCI</MDI>
+        <MDI key="NC_GLOBAL#spatial_resolution">300m</MDI>
+        <MDI key="NC_GLOBAL#standard_name_vocabulary">NetCDF Climate and Forecast (CF) Standard Names version 21</MDI>
+        <MDI key="NC_GLOBAL#summary">This dataset characterizes the land cover of a particular year (see time_coverage). The land cover was derived from the analysis of satellite data time series of the full period.</MDI>
+        <MDI key="NC_GLOBAL#TileSize">2025:2025</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_duration">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_end">20221231</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_resolution">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_start">20220101</MDI>
+        <MDI key="NC_GLOBAL#title">Land Cover Map of 2022</MDI>
+        <MDI key="NC_GLOBAL#tracking_id">cbc0983e-a0fd-4277-9023-2e618c0c2067</MDI>
+        <MDI key="NC_GLOBAL#type">C3S-LC-L4-LCCS-Map-300m-P1Y</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{1,6}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">18993</MDI>
+        <MDI key="processed_flag#flag_meanings">not_processed processed</MDI>
+        <MDI key="processed_flag#flag_values">{0,1}</MDI>
+        <MDI key="processed_flag#long_name">LC map processed area flag</MDI>
+        <MDI key="processed_flag#standard_name">land_cover_lccs status_flag</MDI>
+        <MDI key="processed_flag#valid_max">1</MDI>
+        <MDI key="processed_flag#valid_min">0</MDI>
+        <MDI key="processed_flag#_FillValue">-1</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#bounds">time_bounds</MDI>
+        <MDI key="time#calendar">standard</MDI>
+        <MDI key="time#long_name">time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">days since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_MAXIMUM">1</MDI>
+          <MDI key="STATISTICS_MEAN">1</MDI>
+          <MDI key="STATISTICS_STDDEV">0</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="observation_count">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#bounds">lat_bounds</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#valid_max">90</MDI>
+        <MDI key="lat#valid_min">-90</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#bounds">lon_bounds</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#valid_max">180</MDI>
+        <MDI key="lon#valid_min">-180</MDI>
+        <MDI key="NC_GLOBAL#cdm_data_type">grid</MDI>
+        <MDI key="NC_GLOBAL#comment" />
+        <MDI key="NC_GLOBAL#contact">copernicus-support@ecmwf.int</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.6</MDI>
+        <MDI key="NC_GLOBAL#creation_date">20240220T123148Z</MDI>
+        <MDI key="NC_GLOBAL#creator_email">landcover-cci@uclouvain.be</MDI>
+        <MDI key="NC_GLOBAL#creator_name">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#creator_url">http://www.uclouvain.be/</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_max">90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_min">-90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_units">degrees_north</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_max">180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_min">-180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_units">degrees_east</MDI>
+        <MDI key="NC_GLOBAL#history">lc-sr-1.0, lc-classification-1.0,lc-user-tools-3.14,lc-user-tools-4.5</MDI>
+        <MDI key="NC_GLOBAL#id">C3S-LC-L4-LCCS-Map-300m-P1Y-2022-v2.1.1</MDI>
+        <MDI key="NC_GLOBAL#institution">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#keywords">land cover classification,satellite,observation</MDI>
+        <MDI key="NC_GLOBAL#keywords_vocabulary">NASA Global Change Master Directory (GCMD) Science Keywords</MDI>
+        <MDI key="NC_GLOBAL#license">EC C3S Land cover Data Policy</MDI>
+        <MDI key="NC_GLOBAL#naming_authority" />
+        <MDI key="NC_GLOBAL#product_version">2.1.1</MDI>
+        <MDI key="NC_GLOBAL#project">EC C3S Land Cover</MDI>
+        <MDI key="NC_GLOBAL#references">https://cds.climate.copernicus.eu/</MDI>
+        <MDI key="NC_GLOBAL#source">Sentinel-3 OLCI</MDI>
+        <MDI key="NC_GLOBAL#spatial_resolution">300m</MDI>
+        <MDI key="NC_GLOBAL#standard_name_vocabulary">NetCDF Climate and Forecast (CF) Standard Names version 21</MDI>
+        <MDI key="NC_GLOBAL#summary">This dataset characterizes the land cover of a particular year (see time_coverage). The land cover was derived from the analysis of satellite data time series of the full period.</MDI>
+        <MDI key="NC_GLOBAL#TileSize">2025:2025</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_duration">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_end">20221231</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_resolution">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_start">20220101</MDI>
+        <MDI key="NC_GLOBAL#title">Land Cover Map of 2022</MDI>
+        <MDI key="NC_GLOBAL#tracking_id">cbc0983e-a0fd-4277-9023-2e618c0c2067</MDI>
+        <MDI key="NC_GLOBAL#type">C3S-LC-L4-LCCS-Map-300m-P1Y</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{1,6}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">18993</MDI>
+        <MDI key="observation_count#long_name">number of valid observations</MDI>
+        <MDI key="observation_count#standard_name">land_cover_lccs number_of_observations</MDI>
+        <MDI key="observation_count#valid_max">32767</MDI>
+        <MDI key="observation_count#valid_min">0</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#bounds">time_bounds</MDI>
+        <MDI key="time#calendar">standard</MDI>
+        <MDI key="time#long_name">time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">days since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_MAXIMUM">213</MDI>
+          <MDI key="STATISTICS_MEAN">159.52215189873</MDI>
+          <MDI key="STATISTICS_STDDEV">26.877120525575</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="change_count">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="change_count#long_name">number of class changes</MDI>
+        <MDI key="change_count#valid_max">100</MDI>
+        <MDI key="change_count#valid_min">0</MDI>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#bounds">lat_bounds</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#valid_max">90</MDI>
+        <MDI key="lat#valid_min">-90</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#bounds">lon_bounds</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#valid_max">180</MDI>
+        <MDI key="lon#valid_min">-180</MDI>
+        <MDI key="NC_GLOBAL#cdm_data_type">grid</MDI>
+        <MDI key="NC_GLOBAL#comment" />
+        <MDI key="NC_GLOBAL#contact">copernicus-support@ecmwf.int</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.6</MDI>
+        <MDI key="NC_GLOBAL#creation_date">20240220T123148Z</MDI>
+        <MDI key="NC_GLOBAL#creator_email">landcover-cci@uclouvain.be</MDI>
+        <MDI key="NC_GLOBAL#creator_name">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#creator_url">http://www.uclouvain.be/</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_max">90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_min">-90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_units">degrees_north</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_max">180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_min">-180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_units">degrees_east</MDI>
+        <MDI key="NC_GLOBAL#history">lc-sr-1.0, lc-classification-1.0,lc-user-tools-3.14,lc-user-tools-4.5</MDI>
+        <MDI key="NC_GLOBAL#id">C3S-LC-L4-LCCS-Map-300m-P1Y-2022-v2.1.1</MDI>
+        <MDI key="NC_GLOBAL#institution">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#keywords">land cover classification,satellite,observation</MDI>
+        <MDI key="NC_GLOBAL#keywords_vocabulary">NASA Global Change Master Directory (GCMD) Science Keywords</MDI>
+        <MDI key="NC_GLOBAL#license">EC C3S Land cover Data Policy</MDI>
+        <MDI key="NC_GLOBAL#naming_authority" />
+        <MDI key="NC_GLOBAL#product_version">2.1.1</MDI>
+        <MDI key="NC_GLOBAL#project">EC C3S Land Cover</MDI>
+        <MDI key="NC_GLOBAL#references">https://cds.climate.copernicus.eu/</MDI>
+        <MDI key="NC_GLOBAL#source">Sentinel-3 OLCI</MDI>
+        <MDI key="NC_GLOBAL#spatial_resolution">300m</MDI>
+        <MDI key="NC_GLOBAL#standard_name_vocabulary">NetCDF Climate and Forecast (CF) Standard Names version 21</MDI>
+        <MDI key="NC_GLOBAL#summary">This dataset characterizes the land cover of a particular year (see time_coverage). The land cover was derived from the analysis of satellite data time series of the full period.</MDI>
+        <MDI key="NC_GLOBAL#TileSize">2025:2025</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_duration">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_end">20221231</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_resolution">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_start">20220101</MDI>
+        <MDI key="NC_GLOBAL#title">Land Cover Map of 2022</MDI>
+        <MDI key="NC_GLOBAL#tracking_id">cbc0983e-a0fd-4277-9023-2e618c0c2067</MDI>
+        <MDI key="NC_GLOBAL#type">C3S-LC-L4-LCCS-Map-300m-P1Y</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{1,6}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">18993</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#bounds">time_bounds</MDI>
+        <MDI key="time#calendar">standard</MDI>
+        <MDI key="time#long_name">time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">days since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">0</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2</MDI>
+          <MDI key="STATISTICS_MEAN">0.20165260196906</MDI>
+          <MDI key="STATISTICS_STDDEV">0.4188139743817</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="current_pixel_state">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="current_pixel_state#flag_meanings">invalid clear_land clear_water clear_snow_ice cloud cloud_shadow</MDI>
+        <MDI key="current_pixel_state#flag_values">{0,1,2,3,4,5}</MDI>
+        <MDI key="current_pixel_state#long_name">LC pixel type mask</MDI>
+        <MDI key="current_pixel_state#standard_name">land_cover_lccs status_flag</MDI>
+        <MDI key="current_pixel_state#valid_max">5</MDI>
+        <MDI key="current_pixel_state#valid_min">0</MDI>
+        <MDI key="current_pixel_state#_FillValue">-1</MDI>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#bounds">lat_bounds</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#valid_max">90</MDI>
+        <MDI key="lat#valid_min">-90</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#bounds">lon_bounds</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#valid_max">180</MDI>
+        <MDI key="lon#valid_min">-180</MDI>
+        <MDI key="NC_GLOBAL#cdm_data_type">grid</MDI>
+        <MDI key="NC_GLOBAL#comment" />
+        <MDI key="NC_GLOBAL#contact">copernicus-support@ecmwf.int</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.6</MDI>
+        <MDI key="NC_GLOBAL#creation_date">20240220T123148Z</MDI>
+        <MDI key="NC_GLOBAL#creator_email">landcover-cci@uclouvain.be</MDI>
+        <MDI key="NC_GLOBAL#creator_name">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#creator_url">http://www.uclouvain.be/</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_max">90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_min">-90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_units">degrees_north</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_max">180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_min">-180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_units">degrees_east</MDI>
+        <MDI key="NC_GLOBAL#history">lc-sr-1.0, lc-classification-1.0,lc-user-tools-3.14,lc-user-tools-4.5</MDI>
+        <MDI key="NC_GLOBAL#id">C3S-LC-L4-LCCS-Map-300m-P1Y-2022-v2.1.1</MDI>
+        <MDI key="NC_GLOBAL#institution">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#keywords">land cover classification,satellite,observation</MDI>
+        <MDI key="NC_GLOBAL#keywords_vocabulary">NASA Global Change Master Directory (GCMD) Science Keywords</MDI>
+        <MDI key="NC_GLOBAL#license">EC C3S Land cover Data Policy</MDI>
+        <MDI key="NC_GLOBAL#naming_authority" />
+        <MDI key="NC_GLOBAL#product_version">2.1.1</MDI>
+        <MDI key="NC_GLOBAL#project">EC C3S Land Cover</MDI>
+        <MDI key="NC_GLOBAL#references">https://cds.climate.copernicus.eu/</MDI>
+        <MDI key="NC_GLOBAL#source">Sentinel-3 OLCI</MDI>
+        <MDI key="NC_GLOBAL#spatial_resolution">300m</MDI>
+        <MDI key="NC_GLOBAL#standard_name_vocabulary">NetCDF Climate and Forecast (CF) Standard Names version 21</MDI>
+        <MDI key="NC_GLOBAL#summary">This dataset characterizes the land cover of a particular year (see time_coverage). The land cover was derived from the analysis of satellite data time series of the full period.</MDI>
+        <MDI key="NC_GLOBAL#TileSize">2025:2025</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_duration">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_end">20221231</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_resolution">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_start">20220101</MDI>
+        <MDI key="NC_GLOBAL#title">Land Cover Map of 2022</MDI>
+        <MDI key="NC_GLOBAL#tracking_id">cbc0983e-a0fd-4277-9023-2e618c0c2067</MDI>
+        <MDI key="NC_GLOBAL#type">C3S-LC-L4-LCCS-Map-300m-P1Y</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{1,6}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">18993</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#bounds">time_bounds</MDI>
+        <MDI key="time#calendar">standard</MDI>
+        <MDI key="time#long_name">time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">days since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">1</MDI>
+          <MDI key="STATISTICS_MAXIMUM">2</MDI>
+          <MDI key="STATISTICS_MEAN">1.0151195499297</MDI>
+          <MDI key="STATISTICS_STDDEV">0.12202847675686</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="lat_bounds">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#bounds">lat_bounds</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#valid_max">90</MDI>
+        <MDI key="lat#valid_min">-90</MDI>
+        <MDI key="NC_GLOBAL#cdm_data_type">grid</MDI>
+        <MDI key="NC_GLOBAL#comment" />
+        <MDI key="NC_GLOBAL#contact">copernicus-support@ecmwf.int</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.6</MDI>
+        <MDI key="NC_GLOBAL#creation_date">20240220T123148Z</MDI>
+        <MDI key="NC_GLOBAL#creator_email">landcover-cci@uclouvain.be</MDI>
+        <MDI key="NC_GLOBAL#creator_name">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#creator_url">http://www.uclouvain.be/</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_max">90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_min">-90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_units">degrees_north</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_max">180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_min">-180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_units">degrees_east</MDI>
+        <MDI key="NC_GLOBAL#history">lc-sr-1.0, lc-classification-1.0,lc-user-tools-3.14,lc-user-tools-4.5</MDI>
+        <MDI key="NC_GLOBAL#id">C3S-LC-L4-LCCS-Map-300m-P1Y-2022-v2.1.1</MDI>
+        <MDI key="NC_GLOBAL#institution">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#keywords">land cover classification,satellite,observation</MDI>
+        <MDI key="NC_GLOBAL#keywords_vocabulary">NASA Global Change Master Directory (GCMD) Science Keywords</MDI>
+        <MDI key="NC_GLOBAL#license">EC C3S Land cover Data Policy</MDI>
+        <MDI key="NC_GLOBAL#naming_authority" />
+        <MDI key="NC_GLOBAL#product_version">2.1.1</MDI>
+        <MDI key="NC_GLOBAL#project">EC C3S Land Cover</MDI>
+        <MDI key="NC_GLOBAL#references">https://cds.climate.copernicus.eu/</MDI>
+        <MDI key="NC_GLOBAL#source">Sentinel-3 OLCI</MDI>
+        <MDI key="NC_GLOBAL#spatial_resolution">300m</MDI>
+        <MDI key="NC_GLOBAL#standard_name_vocabulary">NetCDF Climate and Forecast (CF) Standard Names version 21</MDI>
+        <MDI key="NC_GLOBAL#summary">This dataset characterizes the land cover of a particular year (see time_coverage). The land cover was derived from the analysis of satellite data time series of the full period.</MDI>
+        <MDI key="NC_GLOBAL#TileSize">2025:2025</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_duration">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_end">20221231</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_resolution">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_start">20220101</MDI>
+        <MDI key="NC_GLOBAL#title">Land Cover Map of 2022</MDI>
+        <MDI key="NC_GLOBAL#tracking_id">cbc0983e-a0fd-4277-9023-2e618c0c2067</MDI>
+        <MDI key="NC_GLOBAL#type">C3S-LC-L4-LCCS-Map-300m-P1Y</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">38.8</MDI>
+          <MDI key="STATISTICS_MAXIMUM">39</MDI>
+          <MDI key="STATISTICS_MEAN">38.9</MDI>
+          <MDI key="STATISTICS_STDDEV">0.057746163002968</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="lon_bounds">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#bounds">lon_bounds</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#valid_max">180</MDI>
+        <MDI key="lon#valid_min">-180</MDI>
+        <MDI key="NC_GLOBAL#cdm_data_type">grid</MDI>
+        <MDI key="NC_GLOBAL#comment" />
+        <MDI key="NC_GLOBAL#contact">copernicus-support@ecmwf.int</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.6</MDI>
+        <MDI key="NC_GLOBAL#creation_date">20240220T123148Z</MDI>
+        <MDI key="NC_GLOBAL#creator_email">landcover-cci@uclouvain.be</MDI>
+        <MDI key="NC_GLOBAL#creator_name">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#creator_url">http://www.uclouvain.be/</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_max">90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_min">-90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_units">degrees_north</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_max">180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_min">-180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_units">degrees_east</MDI>
+        <MDI key="NC_GLOBAL#history">lc-sr-1.0, lc-classification-1.0,lc-user-tools-3.14,lc-user-tools-4.5</MDI>
+        <MDI key="NC_GLOBAL#id">C3S-LC-L4-LCCS-Map-300m-P1Y-2022-v2.1.1</MDI>
+        <MDI key="NC_GLOBAL#institution">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#keywords">land cover classification,satellite,observation</MDI>
+        <MDI key="NC_GLOBAL#keywords_vocabulary">NASA Global Change Master Directory (GCMD) Science Keywords</MDI>
+        <MDI key="NC_GLOBAL#license">EC C3S Land cover Data Policy</MDI>
+        <MDI key="NC_GLOBAL#naming_authority" />
+        <MDI key="NC_GLOBAL#product_version">2.1.1</MDI>
+        <MDI key="NC_GLOBAL#project">EC C3S Land Cover</MDI>
+        <MDI key="NC_GLOBAL#references">https://cds.climate.copernicus.eu/</MDI>
+        <MDI key="NC_GLOBAL#source">Sentinel-3 OLCI</MDI>
+        <MDI key="NC_GLOBAL#spatial_resolution">300m</MDI>
+        <MDI key="NC_GLOBAL#standard_name_vocabulary">NetCDF Climate and Forecast (CF) Standard Names version 21</MDI>
+        <MDI key="NC_GLOBAL#summary">This dataset characterizes the land cover of a particular year (see time_coverage). The land cover was derived from the analysis of satellite data time series of the full period.</MDI>
+        <MDI key="NC_GLOBAL#TileSize">2025:2025</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_duration">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_end">20221231</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_resolution">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_start">20220101</MDI>
+        <MDI key="NC_GLOBAL#title">Land Cover Map of 2022</MDI>
+        <MDI key="NC_GLOBAL#tracking_id">cbc0983e-a0fd-4277-9023-2e618c0c2067</MDI>
+        <MDI key="NC_GLOBAL#type">C3S-LC-L4-LCCS-Map-300m-P1Y</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">-77.119444444444</MDI>
+          <MDI key="STATISTICS_MAXIMUM">-76.9</MDI>
+          <MDI key="STATISTICS_MEAN">-77.009722222222</MDI>
+          <MDI key="STATISTICS_STDDEV">0.063358304044169</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+  <Subdataset name="lccs_class">
+    <PAMDataset>
+      <Metadata>
+        <MDI key="lat#axis">Y</MDI>
+        <MDI key="lat#bounds">lat_bounds</MDI>
+        <MDI key="lat#long_name">latitude</MDI>
+        <MDI key="lat#standard_name">latitude</MDI>
+        <MDI key="lat#units">degrees_north</MDI>
+        <MDI key="lat#valid_max">90</MDI>
+        <MDI key="lat#valid_min">-90</MDI>
+        <MDI key="lccs_class#ancillary_variables">processed_flag current_pixel_state observation_count change_count</MDI>
+        <MDI key="lccs_class#flag_colors">#ffff64 #ffff64 #ffff00 #aaf0f0 #dcf064 #c8c864 #006400 #00a000 #00a000 #aac800 #003c00 #003c00 #005000 #285000 #285000 #286400 #788200 #8ca000 #be9600 #966400 #966400 #966400 #ffb432 #ffdcd2 #ffebaf #ffc864 #ffd278 #ffebaf #00785a #009678 #00dc82 #c31400 #fff5d7 #dcdcdc #fff5d7 #0046c8 #ffffff</MDI>
+        <MDI key="lccs_class#flag_meanings">no_data cropland_rainfed cropland_rainfed_herbaceous_cover cropland_rainfed_tree_or_shrub_cover cropland_irrigated mosaic_cropland mosaic_natural_vegetation tree_broadleaved_evergreen_closed_to_open tree_broadleaved_deciduous_closed_to_open tree_broadleaved_deciduous_closed tree_broadleaved_deciduous_open tree_needleleaved_evergreen_closed_to_open tree_needleleaved_evergreen_closed tree_needleleaved_evergreen_open tree_needleleaved_deciduous_closed_to_open tree_needleleaved_deciduous_closed tree_needleleaved_deciduous_open tree_mixed mosaic_tree_and_shrub mosaic_herbaceous shrubland shrubland_evergreen shrubland_deciduous grassland lichens_and_mosses sparse_vegetation sparse_tree sparse_shrub sparse_herbaceous tree_cover_flooded_fresh_or_brakish_water tree_cover_flooded_saline_water shrub_or_herbaceous_cover_flooded urban bare_areas bare_areas_consolidated bare_areas_unconsolidated water snow_and_ice</MDI>
+        <MDI key="lccs_class#flag_values">{0,10,11,12,20,30,40,50,60,61,62,70,71,72,80,81,82,90,100,110,120,121,122,130,140,150,151,152,153,160,170,180,190,200,201,202,210,220}</MDI>
+        <MDI key="lccs_class#long_name">Land cover class defined in LCCS</MDI>
+        <MDI key="lccs_class#standard_name">land_cover_lccs</MDI>
+        <MDI key="lccs_class#valid_max">220</MDI>
+        <MDI key="lccs_class#valid_min">1</MDI>
+        <MDI key="lon#axis">X</MDI>
+        <MDI key="lon#bounds">lon_bounds</MDI>
+        <MDI key="lon#long_name">longitude</MDI>
+        <MDI key="lon#standard_name">longitude</MDI>
+        <MDI key="lon#units">degrees_east</MDI>
+        <MDI key="lon#valid_max">180</MDI>
+        <MDI key="lon#valid_min">-180</MDI>
+        <MDI key="NC_GLOBAL#cdm_data_type">grid</MDI>
+        <MDI key="NC_GLOBAL#comment"></MDI>
+        <MDI key="NC_GLOBAL#contact">copernicus-support@ecmwf.int</MDI>
+        <MDI key="NC_GLOBAL#Conventions">CF-1.6</MDI>
+        <MDI key="NC_GLOBAL#creation_date">20240220T123148Z</MDI>
+        <MDI key="NC_GLOBAL#creator_email">landcover-cci@uclouvain.be</MDI>
+        <MDI key="NC_GLOBAL#creator_name">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#creator_url">http://www.uclouvain.be/</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_max">90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_min">-90.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lat_units">degrees_north</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_max">180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_min">-180.0</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_resolution">0.002778</MDI>
+        <MDI key="NC_GLOBAL#geospatial_lon_units">degrees_east</MDI>
+        <MDI key="NC_GLOBAL#history">lc-sr-1.0, lc-classification-1.0,lc-user-tools-3.14,lc-user-tools-4.5</MDI>
+        <MDI key="NC_GLOBAL#id">C3S-LC-L4-LCCS-Map-300m-P1Y-2022-v2.1.1</MDI>
+        <MDI key="NC_GLOBAL#institution">UCLouvain</MDI>
+        <MDI key="NC_GLOBAL#keywords">land cover classification,satellite,observation</MDI>
+        <MDI key="NC_GLOBAL#keywords_vocabulary">NASA Global Change Master Directory (GCMD) Science Keywords</MDI>
+        <MDI key="NC_GLOBAL#license">EC C3S Land cover Data Policy</MDI>
+        <MDI key="NC_GLOBAL#naming_authority"></MDI>
+        <MDI key="NC_GLOBAL#product_version">2.1.1</MDI>
+        <MDI key="NC_GLOBAL#project">EC C3S Land Cover</MDI>
+        <MDI key="NC_GLOBAL#references">https://cds.climate.copernicus.eu/</MDI>
+        <MDI key="NC_GLOBAL#source">Sentinel-3 OLCI</MDI>
+        <MDI key="NC_GLOBAL#spatial_resolution">300m</MDI>
+        <MDI key="NC_GLOBAL#standard_name_vocabulary">NetCDF Climate and Forecast (CF) Standard Names version 21</MDI>
+        <MDI key="NC_GLOBAL#summary">This dataset characterizes the land cover of a particular year (see time_coverage). The land cover was derived from the analysis of satellite data time series of the full period.</MDI>
+        <MDI key="NC_GLOBAL#TileSize">2025:2025</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_duration">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_end">20221231</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_resolution">P1Y</MDI>
+        <MDI key="NC_GLOBAL#time_coverage_start">20220101</MDI>
+        <MDI key="NC_GLOBAL#title">Land Cover Map of 2022</MDI>
+        <MDI key="NC_GLOBAL#tracking_id">cbc0983e-a0fd-4277-9023-2e618c0c2067</MDI>
+        <MDI key="NC_GLOBAL#type">C3S-LC-L4-LCCS-Map-300m-P1Y</MDI>
+        <MDI key="NETCDF_DIM_EXTRA">{time}</MDI>
+        <MDI key="NETCDF_DIM_time_DEF">{1,6}</MDI>
+        <MDI key="NETCDF_DIM_time_VALUES">18993</MDI>
+        <MDI key="time#axis">T</MDI>
+        <MDI key="time#bounds">time_bounds</MDI>
+        <MDI key="time#calendar">standard</MDI>
+        <MDI key="time#long_name">time</MDI>
+        <MDI key="time#standard_name">time</MDI>
+        <MDI key="time#units">days since 1970-01-01 00:00:00</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Histograms>
+          <HistItem>
+            <HistMin>9.502487562189055</HistMin>
+            <HistMax>210.4975124378109</HistMax>
+            <BucketCount>201</BucketCount>
+            <IncludeOutOfRange>0</IncludeOutOfRange>
+            <Approximate>0</Approximate>
+            <HistCounts>36|2|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|16|0|0|0|0|0|0|0|0|0|5|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|224|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|31|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|664|0|0|0|0|0|0|0|0|0|36|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|160|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|8|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|2|0|0|0|0|0|0|0|0|0|4235|0|0|0|0|0|0|0|0|0|22|0|0|0|0|0|0|0|0|0|247</HistCounts>
+          </HistItem>
+        </Histograms>
+        <Metadata>
+          <MDI key="STATISTICS_MINIMUM">10</MDI>
+          <MDI key="STATISTICS_MAXIMUM">210</MDI>
+          <MDI key="STATISTICS_MEAN">170.65787623066</MDI>
+          <MDI key="STATISTICS_STDDEV">42.093802698118</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>

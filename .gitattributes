@@ -1,0 +1,11 @@
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.gpkg filter=lfs diff=lfs merge=lfs -text
+*.shp filter=lfs diff=lfs merge=lfs -text
+*.dbf filter=lfs diff=lfs merge=lfs -text
+*.shx filter=lfs diff=lfs merge=lfs -text
+*.prj filter=lfs diff=lfs merge=lfs -text
+Scripts/DC_similarity/result_*/*.png filter=lfs diff=lfs merge=lfs -text
+Scripts/DC_similarity/K-S[[:space:]]test/ks_results/*.png filter=lfs diff=lfs merge=lfs -text

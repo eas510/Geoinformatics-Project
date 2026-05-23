@@ -1,0 +1,29 @@
+{
+    "resolution": "10m",
+    "year": 2022,
+    "total_pixels_N_full": 2932642,
+    "sample_n": 50000,
+    "total_pairs_compared": 1249975000,
+    "exact_mean": 0.6255012456372839,
+    "exact_std_dev": 0.21185139745202122,
+    "approx_median": 0.67,
+    "source_tiff": "data\\DC_AEF_10m_native_2022.tif",
+    "geotiff_meta": {
+        "crs": "EPSG:3857",
+        "transform": [
+            10.0,
+            0.0,
+            -8584940.0,
+            0.0,
+            -10.0,
+            4721080.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "width": 2343,
+        "height": 2922,
+        "count": 64
+    },
+    "note_pvalue": "p-values from KS tests are not interpretable due to spatial autocorrelation between pixel pairs. Use KS D statistic only."
+}

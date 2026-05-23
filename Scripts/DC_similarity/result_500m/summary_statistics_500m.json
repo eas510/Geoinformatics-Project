@@ -1,0 +1,8 @@
+{
+    "resolution": "500m",
+    "total_cells_N": 1990,
+    "total_pairs_compared": 1979055,
+    "exact_mean": 0.7444647550582886,
+    "exact_std_dev": 0.20087285339832306,
+    "approx_median": 0.81
+}

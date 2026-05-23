@@ -1,0 +1,92 @@
+[
+    {
+        "pair": "10m_vs_50m",
+        "label_a": "10m",
+        "label_b": "50m",
+        "ks_statistic_D": 0.0539,
+        "p_value": 4.768465772736311e-13,
+        "significant_0.05": true,
+        "interpretation": "very similar"
+    },
+    {
+        "pair": "10m_vs_100m",
+        "label_a": "10m",
+        "label_b": "100m",
+        "ks_statistic_D": 0.1059,
+        "p_value": 3.211665551823881e-49,
+        "significant_0.05": true,
+        "interpretation": "moderate diff"
+    },
+    {
+        "pair": "10m_vs_300m",
+        "label_a": "10m",
+        "label_b": "300m",
+        "ks_statistic_D": 0.2001,
+        "p_value": 1.7334771516563186e-175,
+        "significant_0.05": true,
+        "interpretation": "substantial diff"
+    },
+    {
+        "pair": "10m_vs_1000m",
+        "label_a": "10m",
+        "label_b": "1000m",
+        "ks_statistic_D": 0.3312,
+        "p_value": 1e-323,
+        "significant_0.05": true,
+        "interpretation": "substantial diff"
+    },
+    {
+        "pair": "50m_vs_100m",
+        "label_a": "50m",
+        "label_b": "100m",
+        "ks_statistic_D": 0.0521,
+        "p_value": 3.2192033198497964e-12,
+        "significant_0.05": true,
+        "interpretation": "very similar"
+    },
+    {
+        "pair": "50m_vs_300m",
+        "label_a": "50m",
+        "label_b": "300m",
+        "ks_statistic_D": 0.1471,
+        "p_value": 9.760727226902662e-95,
+        "significant_0.05": true,
+        "interpretation": "moderate diff"
+    },
+    {
+        "pair": "50m_vs_1000m",
+        "label_a": "50m",
+        "label_b": "1000m",
+        "ks_statistic_D": 0.2773,
+        "p_value": 1e-323,
+        "significant_0.05": true,
+        "interpretation": "substantial diff"
+    },
+    {
+        "pair": "100m_vs_300m",
+        "label_a": "100m",
+        "label_b": "300m",
+        "ks_statistic_D": 0.0954,
+        "p_value": 5.212008389040835e-40,
+        "significant_0.05": true,
+        "interpretation": "very similar"
+    },
+    {
+        "pair": "100m_vs_1000m",
+        "label_a": "100m",
+        "label_b": "1000m",
+        "ks_statistic_D": 0.2259,
+        "p_value": 5.806402951160869e-224,
+        "significant_0.05": true,
+        "interpretation": "substantial diff"
+    },
+    {
+        "pair": "300m_vs_1000m",
+        "label_a": "300m",
+        "label_b": "1000m",
+        "ks_statistic_D": 0.1336,
+        "p_value": 3.5944320484723584e-78,
+        "significant_0.05": true,
+        "interpretation": "moderate diff"
+    }
+]
